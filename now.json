@@ -1,0 +1,30 @@
+{
+	"version": 2,
+	"alias": "slides.petter.space",
+	"builds": [
+		{
+			"src": "index.html",
+			"use": "@now/static"
+		},
+		{
+			"src": "js/**",
+			"use": "@now/static"
+		},
+		{
+			"src": "css/**",
+			"use": "@now/static"
+		},
+		{
+			"src": "plugin/**",
+			"use": "@now/static"
+		},
+		{
+			"src": "lib/**",
+			"use": "@now/static"
+		},
+		{
+			"src": "decks/**",
+			"use": "@now/static"
+		}
+	]
+}

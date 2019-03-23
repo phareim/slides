@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Petters Slides</title>
+
+		<link rel="stylesheet" href="/css/reveal.css" />
+		<link rel="stylesheet" href="/css/theme/league.css" />
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css" />
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match(/print-pdf/gi)
+				? '/css/print/pdf.css'
+				: '/css/print/paper.css';
+			document.getElementsByTagName('head')[0].appendChild(link);
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack" data-id="49699dc8140b67e8425789785d631b1f">
+					<section class="" data-id="1cab83e540cab6cc250285daa1a3f510">
+						<h1>Javazone</h1>
+						<div>Noen trender og betraktninger</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>Frokostmøte på&nbsp;
+							<span>Bouvetøya</span>
+						</div>
+						<div>18. oktober 2013</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<a href="http://twitter.com/phareim" style="color:#ec6708">@phareim</a>
+						</div>
+						<div>
+							<i>
+								<font style="font-size: 24px;">54°26'51 S &nbsp; 3°19'15 E</font>
+							</i>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121400/bouvet_header_logo.png" />
+							<i>
+								<font style="font-size: 24px;">
+									<br />
+								</font>
+							</i>
+						</div>
+					</section>
+					<section class="" data-id="80bf201d413bc53b0a2cc041f074bf59">
+						<h2>Agenda</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<div>
+								<ol>
+									<li>
+										<span style="text-align: center;">Litt om JavaZone</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">Hovedtrender</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">Moving to the Client</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">Livin' on the edge&nbsp;</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">System of systems</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">How to write a method</span>
+										<br />
+									</li>
+									<li>
+										<span style="text-align: center;">Å organisere kreative folk</span>
+									</li>
+									<li>
+										<span style="text-align: center;">Noen tanker og konsekvenser &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+									</li>
+								</ol>
+								<ol></ol>
+							</div>
+						</div>
+					</section>
+					<section class="" data-id="84158d7e535edb8480b263af00f46694">
+						<h2>Disclaimer</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>All synsing, grove forenklinger og feilaktive antagelser
+							<br />står for forfatterens regning.
+						</div>
+					</section>
+					<section class="" data-id="7a81b32950da04167b3c4fdba6d39e0f">
+						<h2>dette er:</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>De inntrykkene som fortsatt sitter igjen
+							<br />en måned etter konferansen.
+						</div>
+					</section>
+					<section class="" data-id="88e4690f7d4106db552b6b19e463c62f">
+						<h2>Dette er ikke:</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>Særlig representativt.</div>
+						<div>
+							<br />
+						</div>
+					</section>
+				</section>
+				<section class="stack" data-id="8d75971d31dea04653c4f08d48381b52">
+					<section data-id="34e276d05bd3e02d38ee745b7252922b" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>Litt om javazone</h1>
+						<p></p>
+					</section>
+					<section class="" data-id="c49283149954da999090a97a48bdf311">
+						<h2>
+							<a href="http://jz13.java.no">
+								<img src="http://jz13.java.no/assets/img/logos/javazone.horizontal.png" />
+							</a>
+							<br />
+						</h2>
+						<div>
+							<ul>
+								<li>
+									<span style="text-align: center;">Norges største utviklerkonferanse&nbsp;</span>
+									<br />
+								</li>
+								<li style="font-size: 36px; font-style: normal; font-variant: normal;" class="fragment" data-fragment-index="0">
+									<span style="text-align: center;">Holdt i Oslo Spektrum</span>
+								</li>
+								<li style="font-size: 36px; font-style: normal; font-variant: normal;" class="fragment" data-fragment-index="1">
+									<span style="text-align: center;">Var tidligere en tilnærmet ren Java-konferanse,&nbsp;
+										<br />
+									</span>
+									<span style="text-align: center;">men har de senere årene spredt innholdet&nbsp;bredere.</span>&nbsp;
+								</li>
+								<li style="font-size: 36px; font-style: normal; font-variant: normal;" class="fragment" data-fragment-index="2">
+									<span style="text-align: center;">Seks parallelle tracks med foredrag, pluss ett track
+										<br />med lyn-foredrag.
+									</span>
+								</li>
+								<li style="font-size: 36px; font-style: normal; font-variant: normal;" class="fragment" data-fragment-index="3">
+									<span style="text-align: center;">.. For ikke å nevne mye stands, bra folk, konkurranser og
+										<br />god mat.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="" data-id="c5abba09c764f3d0c6f2b40beecccdbf">
+						<div>
+							<h2>..og noen ganske friske pr-videoer</h2>
+						</div>
+						<br />
+						<iframe width="720" height="405" src="https://youtube.com/embed/E3418SeWZfQ?enablejsapi=1" frameborder="0" webkitallowfullscreen=""
+							mozallowfullscreen="" allowfullscreen="" style="width: 887px; height: 498.9375px; max-height: none; max-width: none;"></iframe>
+						<br />
+					</section>
+					<section class="" data-id="f8de5c87d38fedc3de60adea5270abcf">
+						<h2>.. Mye kule stands</h2>
+						<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/119461/from-overflow.jpg"
+							style="width: 710px; height: 530.1333333333333px; max-height: none; max-width: none;" />
+					</section>
+					<section class="" data-id="9b1411ead8d6e91125b79e3b3f5c3b6b">
+						<h2>.. og mye bra foredrag!</h2>
+						<div style="text-align: center;">De siste årene har foredragene blitt lagt fritt ut på nett i etterkant av konferansen.</div>
+						<div style="text-align: center;">
+							<br />
+						</div>
+						<div style="text-align: center;">
+							<br />
+						</div>
+						<div style="text-align: center;">Årets konferanse finner du i sin helhet på Vimeo:</div>
+						<div style="text-align: center;">
+							<br />
+						</div>
+						<div style="text-align: center;">
+							<a href="https://vimeo.com/javazone">https://vimeo.com/javazone</a>
+							<br />
+						</div>
+						<div style="text-align: center;">
+							<br />
+						</div>
+						<div style="text-align: center;">
+							<br />
+						</div>
+						<div style="text-align: center;">
+							<i>
+								<font style="font-size: 24px;">(Jeg linker direkte til foredragene som blir nevnt i presentasjonen)</font>
+							</i>
+						</div>
+					</section>
+				</section>
+				<section class="stack" data-id="1213cba72eabc8299744a177fe7b8db7">
+					<section data-id="a9116fa891c850ea34c78d9a3e675cde" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">Hovedtrender</span>
+							<br />
+						</h1>
+					</section>
+					<section class="" data-id="d129ce9eabe8deedd00b7cf487ec3f3f">
+						<h2>Hovedtrender</h2>
+						<p></p>
+						<span style="text-align: left;">
+							<div>
+								<span style="text-align: left;">
+									<br />
+								</span>
+							</div>
+							<div>
+								<span style="text-align: left;">
+									<br />
+								</span>
+							</div>
+							<div>
+								<span style="text-align: left;">
+									<br />
+								</span>
+							</div>Marsjen mot Web og Cloud fører med seg en masse konsekvenser, som jeg synes var tydelig under JavaZone.
+						</span>
+						<br />
+						<p></p>
+						<div>
+							<span style="text-align: left;">
+								<br />
+							</span>
+						</div>
+						<div>Jeg opplevde lite bruk av de store buzz-orda, men heller en konferanse som tok mange av disse for gitt.</div>
+					</section>
+					<section class="" data-id="49f24336362e2386fac122ced4c83f77">
+						<h2>Vi utvikler for web</h2>
+						<div>(selvfølgelig)</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>Derfor bruker vi mye tid på å bli gode på de fundamentale teknologiene for web.</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img
+								src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" />
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>HTML, CSS, JavaScript</div>
+					</section>
+					<section class="" data-id="64fdcf276a95729ae874308ddef842cd">
+						<h2>
+							<font style="font-size: 72px;">Web-applikasjoner er (ofte)&nbsp;</font>
+						</h2>
+						<h2>
+							<font style="font-size: 72px;">åpne&nbsp;applikasjoner</font>
+						</h2>
+						<div class="fragment" data-fragment-index="0">
+							<font style="font-size: 42px;">Fordi applikasjonene lever på nett bør de være enkle å integrere mot, og snakke med andre der det er
+								nødvendig.</font>
+						</div>
+						<div>
+							<font style="font-size: 42px;">
+								<br />
+							</font>
+						</div>
+						<div>
+							<font style="font-size: 42px;">
+								<br />
+							</font>
+						</div>
+						<div class="fragment" data-fragment-index="1">
+							<font style="font-size: 32px;">
+								<a href="http://en.wikipedia.org/wiki/REST">REST</a>-tankegang på serverlaget.
+							</font>
+						</div>
+						<div>
+							<span style="font-size: 42px;">
+								<br />
+							</span>
+						</div>
+						<div class="fragment" data-fragment-index="2">
+							<font style="font-size: 32px;">
+								<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP&nbsp;</a>som en applikasjonsprotokoll.
+							</font>
+						</div>
+					</section>
+					<section class="" data-id="aec4ca162a50b29ae5782af2f420f9bb">
+						<h2>Mobil</h2>
+						<div>
+							<br />
+						</div>
+						<div>Egentlig opplevde jeg lite prat spesifikt om utvikling for mobil, men heller en nesten uuttalt forutsetning om at når vi snakker
+							om web snakker vi om weben slik den oppleves på alle flater.</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121383/responsive-design-example.png"
+								style="width: 254px; height: 190.4228432563791px; max-height: none; max-width: none;" />
+							<i>
+								<br />
+							</i>
+						</div>
+						<div class="fragment" data-fragment-index="0">
+							<i style="font-size: 36px; font-variant: normal;">&nbsp;Altså, det vi bygger for web fungerer på skjerm, mobil og padde.</i>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="4c22b95940d5378f37e1eb679346b1d3">
+						<h2>Cloud</h2>
+						<div>Jeg opplevde det som at vi har kommet litt forbi å snakke om
+							<i>Cloud</i>&nbsp;som et eller annet abstrakt begrep, og bruker heller tiden på reel bruk og implementering.
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121385/cloud.png"
+								style="width: 288px; height: 288px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">
+							<font style="font-size: 32px;">(Et Eksempel: nær sagt all kode ble gjort tilgjengelig på
+								<a href="http://github.com">Github</a>.)
+							</font>
+						</div>
+						<div>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="3083702510a1cfed8150696c26d426d6">
+						<h2>Lette rammeverk // f
+							<span style="font-size: 75.96px;">unksjonell programmering</span>
+							<span style="font-size: 75.96px;">&nbsp;</span>
+						</h2>
+						<div>
+							<a href="http://en.wikipedia.org/wiki/Functional_programming">Funksjonell programmering</a> har fått stadig mer plass på JavaZone de
+							siste årene.&nbsp;
+						</div>
+						<div style="text-align: center;">
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121399/hipster_dashie_by_crimsonlynx97-d5o1xtt.png"
+								style="width: 201.013468013468px; height: 263px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">I år fikk særlig JavaScript-rammeverk mye plass.</div>
+						<div class="fragment" data-fragment-index="1">Generelt fokus på å skape mer for innsatsen.</div>
+					</section>
+				</section>
+				<section class="stack" data-id="aa5267ca301191c89c90709ac8ad8c09">
+					<section data-id="2538da4c1911e64447ca8e155016f47a" class="">
+						<h2>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h2>
+						<h2>
+							<span style="font-size: 135.72px;">&nbsp;</span>
+							<br />
+						</h2>
+						<h1>JavaScript</h1>
+						<h1>og&nbsp;
+							<br />tøffe rammeverk
+							<br />
+						</h1>
+					</section>
+					<section class="" data-id="9968ba4dbd106a3d7ec667d752a153d9">
+						<h2>
+							<a href="http://vimeo.com/74363039">Moving the web to the client</a>
+						</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74363039?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen="" style="width: 793px; height: 445.666px; max-height: none; max-width: none;"></iframe>
+							<p>
+								<br />
+							</p>
+						</div>
+					</section>
+					<section class="" data-id="2a2ff1942719382f2c5a7f80a2698bbd">
+						<h2>
+							<a href="https://vimeo.com/74437770">JavaScript Framework Face off</a>
+						</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74437770?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen="" style="width: 900px; height: 505.8px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="81aa86b77bc317bce7c487be2eed3dd4">
+						<h2>Programming only Better</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74452549?api=1" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen=""
+								allowfullscreen="" style="width: 757px; height: 425.434px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="5c869c0e1a4f5bdeba6b2ca3bdd45b2e">
+						<h2>
+							<a href="https://vimeo.com/74444253">Building a life-saving portal in Javascript</a>
+						</h2>
+						<div>
+							<iframe src="//player.vimeo.com/video/74444253?api=1" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen=""
+								allowfullscreen="" style="width: 736.3870967741935px; height: 413.9841165875225px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="07db0074a1f8308d923facd397fe7962">
+						<h2>JavaScript tar over klienten</h2>
+						<div>
+							<br />
+						</div>
+						<div>JavaScript for nettleseren kan nå skrives innenfor skikkelige
+							<a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a>-rammeverk (med tester og alt).
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121402/js_logo_big.png"
+								style="width: 424px; height: 238.5px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">... og dette bør få noen konsekvenser for oss.</div>
+					</section>
+					<section class="" data-id="0f891a658c36b93a3a117e92e8b5c509">
+						<h2>
+							<span>The browser is the PC</span>
+							<br />
+						</h2>
+					</section>
+					<section class="" data-id="4447c8ae7a24da12ee38d8d739f79725">
+						<h2>Ytelse er viktig</h2>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">..</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="1">Eller:
+							<i>Opplevd</i>&nbsp;ytelse er viktig
+						</div>
+					</section>
+					<section class="" data-id="ea68f5ecd28996c223098383e527244a">
+						<h2>Tykk klient</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>Vi kommer oss bort fra gammeldags request/response.</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">Tilstand flyttes til klient.</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="1">Klienten snakker asynkront med server: Først oppdateres brukergrensesnittet, så
+							oppdateres serveren.</div>
+					</section>
+					<section class="" data-id="5e2e68f343dc039134987a278667996c">
+						<h2>Et minimum av sikkerhet for fremtiden</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>Klienten er best i stand til å holde orden i eget hus.</div>
+						<div>
+							<br />
+						</div>
+						<div>Altså. Klienten vet selv best hvordan informasjonen skal vises.</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">I dag er det viktig når sidene skal vises på mobil / pad / pc.</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="1">I morgen kan vi legge til klokker og holografiske display (!).</div>
+					</section>
+					<section class="" data-id="d52fe9832b542db82f6839f620f6bb58">
+						<h2>En enklere hverdag for serveren</h2>
+						<div>
+							<br />
+							<pre><code>{&nbsp;</code>
+			                    <code>  "firstName": "Petter",&nbsp;</code>
+			                    <code>  "lastName": "Hareim",&nbsp;</code>
+			                    <code>  "age": 33,&nbsp;</code>
+			                    <code>  "contact":&nbsp;</code>
+			                    <code>  [&nbsp;</code>
+			                    <code>    { "type": "phone", "number": "+4795258952" },&nbsp;</code>
+			                    <code>    { "type": "twitter", "number": "@phareim" }&nbsp;</code>
+			                    <code>  ]&nbsp;</code>
+			                    <code>} </code></pre>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">.. resten er opp til klienten.</div>
+					</section>
+					<section class="" data-id="1d0fc5496b6f620b4053f399a048c10b">
+						<h2>Mye å velge på</h2>
+						<div>
+							<img src="http://emberjs.com/images/ember_logo.png" />
+							<br />
+						</div>
+						<div>
+							<img src="http://angularjs.org/img/AngularJS-large.png"
+								style="width: 314px; height: 72.97859327217125px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div>
+							<img src="http://knockoutjs.com/img/ko-logo.png"
+								style="width: 207px; height: 54.52682926829269px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div>
+							<img src="http://dojotoolkit.org/images/logo.png" />
+							<br />
+						</div>
+						<div>
+							<img src="http://documentcloud.github.io/backbone/docs/images/backbone.png"
+								style="width: 375px; height: 53.984575835475574px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div>
+							<img src="http://yuilibrary.com/img/yui-logo.png"
+								style="width: 104px; height: 46.22222222222222px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="bf43a14240f1ed80243b1df8de3f05cf">
+						<h2>Jeg vil teste MVC-rammeverk!</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121406/logo-icon.png"
+								style="width: 241px; height: 241px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div>
+							<a href="http://todomvc.com/">TodoMVC</a>
+							<span>&nbsp;er en Todo-app implementert i en haug forskjellige MVC-rammeverk.&nbsp;</span>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<i>
+								<font style="font-size: 24px;">(Note to self: Mulig du heller burde fakturere litt.)</font>
+							</i>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="e4a72eb1014cb8023295f8fb8bce4b4d">
+						<h2>
+							<img src="http://angularjs.org/img/AngularJS-large.png" />
+							<br />
+						</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>For meg fremstår det som om&nbsp;
+							<a href="http://angularjs.org/">Angular.js</a>
+							<br />er et veldig godt valg.
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+							<div></div>
+						</div>
+						<div>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="6cfa33f123e6ae85da69d18853cad151">
+						<h2>
+							<img src="http://angularjs.org/img/AngularJS-large.png" />
+							<br />
+						</h2>
+						<h2>
+							<i>
+								<font style="font-size: 54px;">
+									<br />
+								</font>
+							</i>
+						</h2>
+						<h2>
+							<i>
+								<font style="font-size: 54px;">HTML enhanced for web apps!</font>
+							</i>
+						</h2>
+						<div>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="e5820bb0a32f79031b152409dcb48f9a">
+						<h2 style="font-style: normal; font-variant: normal;">
+							<img src="http://angularjs.org/img/AngularJS-large.png" />
+						</h2>
+						<div>
+							<h3>
+								<br />
+							</h3>
+							<h3>Data Binding</h3>
+							<div>
+								<i>Data-binding is an automatic way of updating the view whenever the model changes, as well as updating the model whenever the
+									view changes. This is awesome because it eliminates DOM manipulation from the list of things you have to worry about.</i>
+							</div>
+						</div>
+					</section>
+					<section class="" data-id="d38fb76d7c07b8233652253573eff715">
+						<h2 style="font-style: normal; font-variant: normal;">
+							<img src="http://angularjs.org/img/AngularJS-large.png" />
+						</h2>
+						<h2>
+							<div style="font-size: 36px; font-style: normal; font-variant: normal; text-transform: none;"></div>
+						</h2>
+						<h3
+							style="box-sizing: border-box; font-weight: normal; margin: 0px 0px 20px; padding: 0px; font-size: 55.8px; border: 0px; font-style: inherit; font-variant: inherit; vertical-align: baseline; word-wrap: break-word; text-transform: uppercase; text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px; color: rgb(238, 238, 238);">
+							<br />
+						</h3>
+						<h3
+							style="box-sizing: border-box; font-weight: normal; margin: 0px 0px 20px; padding: 0px; font-size: 55.8px; border: 0px; font-style: inherit; font-variant: inherit; vertical-align: baseline; word-wrap: break-word; text-transform: uppercase; text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px; color: rgb(238, 238, 238);">
+							Directives</h3>
+						<div>
+							<i>Directives is a unique and powerful feature available only in Angular. Directives let you invent new HTML syntax, specific to
+								your application.</i>
+							<br />
+						</div>
+					</section>
+				</section>
+				<section class="stack" data-id="5c79f4e941e9e5220f8b9128dd7ba007">
+					<section data-id="21253874d7803c02b76bd14b66346233" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>Interim</h1>
+						<div style="color:#fb4e4b">(eller: røde foredrag)</div>
+					</section>
+					<section class="" data-id="a9bf8bcc06c32974bfaa726e4619f334">
+						<h2>Livin on the edge: Netflix edge architecture</h2>
+						<div>
+							<iframe src="//player.vimeo.com/video/74553074?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen=""
+								style="width: 853px; height: 479.38599999999997px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="24732c25f8a401a889cedf1eaa3dd902">
+						<h2>..Ett takeaway: Open Source</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120084/netflix_oss.PNG" />
+							<br />
+						</div>
+						<div>
+							<a href="http://netflix.github.io/">http://netflix.github.io/</a>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="b5fbb6532546a2651d1bd862a6e03075">
+						<h2>Anxious cows in ClojureScript</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74354482?api=1" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen=""
+								allowfullscreen="" style="width: 900px; height: 505.8px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+				</section>
+				<section class="stack" data-id="897dcc0299e63e2ab646461e16cf9cf8">
+					<section data-id="92563bb060a4e9a86a98b0dfd9540f8d" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">System of systems</span>
+							<br />
+						</h1>
+					</section>
+					<section class="" data-id="5494e58d879272737b442da9cfda93d1">
+						<h2>Micro-Services - Java, the UNIX way</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74452550?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen="" style="width: 840px; height: 472.08px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="998ff3831e1a773e6d8193b23e0df082">
+						<h2>Breaking the monolith</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74354372?api=1" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen=""
+								allowfullscreen="" style="width: 868px; height: 487.816px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="93e66f3d16db96387b2bcc303975893c">
+						<h2>Prosjektet ≠ Systemet
+						</h2>
+						<div>
+							<br />
+						</div>
+						<div>Hva om vi ikke bygger ett stort system som dekker hele kravspesifikasjonen?&nbsp;</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">Hva om vi heller bygger flere mindre systemer som hver dekker et fornuftig
+							funksjonsområde?</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="1">
+							<i>.. Dette krever god integrasjon, og at vi tenker arkitektur på en litt annen måte.</i>
+						</div>
+					</section>
+					<section class="" data-id="cd169a796bf8a78d3110a5f4e68239cd">
+						<h2>Noen tanker om antall kodelinjer</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120705/Untitled.png" />
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">
+							<font style="font-size: 18px;">
+								<i>(Jeg tror jeg har levert metoder som er lengre enn 2000 linjer)</i>
+							</font>
+						</div>
+					</section>
+					<section class="" data-id="de84c5b1601b0e8799447a62d5ba218d">
+						<h2 style="font-style: normal; font-variant: normal;">ARKITEKTUR på to nivåer</h2>
+						<h3>
+							<br />
+						</h3>
+						<h3>Makro-nivå</h3>
+						<div>Arkitektur styrt av domenet. Med en strategi for integrasjon mellom systemene.</div>
+						<div>
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">
+							<h3>Mikro-nivå</h3>
+							<div>Den tekniske arkitekturen som definerer systemet. Her kan vi i stor grad ta individuelle valg pr system.</div>
+						</div>
+					</section>
+					<section class="" data-id="e16e1faec29a1a33bd91b51d92e691ee">
+						<h2>Makro // Mikro</h2>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120715/mikro-makro.png"
+								style="width: 821.0790020790021px; height: 463px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+						<div class="fragment" data-fragment-index="0">
+							<font style="font-size: 18px;">
+								<i>(Hva som er riktig for ditt prosjekt må du bestemme, og kontinuerlig vurdere underveis)</i>
+							</font>
+						</div>
+					</section>
+					<section class="" data-id="4b473a9448bb60b722a011632fbba0dc">
+						<h2>hva hvis noe ryker på bilen din?</h2>
+						<div class="absolute-element" style="position: absolute; width: 564px; height: 563px; z-index: 4; left: 199px; top: 106px;">
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120675/bilen_til_Ingrid.jpg"
+								style="width: 524px; height: 524px; max-height: none; max-width: none;" />
+						</div>
+						<div class="absolute-element" style="position: absolute; width: 171px; height: 46px; z-index: 4; left: 592px; top: 642px;">
+							<font style="font-size: 18px;">foto:
+								<a href="https://twitter.com/ingridstakk">@ingridstakk</a>
+							</font>
+							<br />
+						</div>
+					</section>
+					<section class="" data-id="52725c4eb92a754ccfe3381c4c612f97">
+						<h2>En (dårlig tegnet) illustrasjon</h2>
+						<div>
+							<br />
+						</div>
+						<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120682/Systems.png" />
+						<br />
+					</section>
+					<section class="" data-id="461b8328c5442385038c7a94d6fd1a98">
+						<h2>Noen forslag</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<ul>
+								<li class="fragment" data-fragment-index="0">
+									<span style="text-align: center;">Legg en bevisst strategi for system-integrasjoner.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="1">
+									<span style="text-align: center;">Skill ut fellesbiblioteker og legg de på GitHub.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="2">
+									<span style="text-align: center;">Legg Static Imports i et eget prosjekt.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="3">
+									<span style="text-align: center;">Det er helt OK å kopiere kode (!) mellom prosjektene.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="4">
+									<span style="text-align: center;">La systemene være så selvstyrte og selvstendige som mulig.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="5">
+									<span style="text-align: center;">Husk sikkerhet og autentisering.</span>
+									<br />
+								</li>
+								<li class="fragment" data-fragment-index="6">
+									<span style="text-align: center;">Bygg for utskiftning, ikke for gjenbruk.</span>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="" data-id="41b7ee5abe3abaa76cdc09f95365e6cc">
+						<h2>case in Point</h2>
+						<div>
+							<br />
+						</div>
+						<div>
+							<br />
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/120721/amazon.jpg"
+								style="width: 324px; height: 324px; max-height: none; max-width: none;" />
+							<br />
+						</div>
+					</section>
+				</section>
+				<section class="stack" data-id="b2429810c808de7e5cc3db8469155c0e">
+					<section data-id="59e7c6bef5e353bb3f4bf1a0705f7766" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">
+								<br />
+							</span>
+						</h1>
+						<h1>
+							<span style="font-size: 135.72px;">Favorittforedrag</span>
+							<br />
+						</h1>
+					</section>
+					<section class="" data-id="d88e36729f1ec932fec709189138a763">
+						<h2>How to write a method</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74316116?api=1" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen=""
+								allowfullscreen="" style="width: 727px; height: 408.574px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="c07a9c5e6103d2ce6b4850937d83f17f">
+						<h1>
+							<font style="font-size: 112px;">?</font>
+						</h1>
+					</section>
+				</section>
+				<section class="stack" data-id="d6c58caa421b779f14675cc7eb4c28cd">
+					<section data-id="9d72812b83864e3b9db9a2958f1008e5" class="">
+						<h1 id="kreative-folk">
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>
+							<br />
+						</h1>
+						<h1>Å lede kreative folk</h1>
+					</section>
+					<section class="" data-id="e9c5a619280b0984ffe373d4b1d21d8b">
+						<h2>First kill all the product owners</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74437772?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen=""
+								style="width: 823px; height: 462.52599999999995px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="71ffaceb612699496ea499558da66be4">
+						<h2>Borrowing from github for fun and profit</h2>
+						<div>
+							<br />
+							<iframe src="//player.vimeo.com/video/74354409?api=1" width="500" height="281" frameborder="0" webkitallowfullscreen=""
+								mozallowfullscreen="" allowfullscreen="" style="width: 771px; height: 433.302px; max-height: none; max-width: none;"></iframe>
+						</div>
+					</section>
+					<section class="" data-id="e3e5802531ab3bd4bbcccf67442110ec">
+						<h2>
+							<span>Hjemmeseier!</span>
+							<br />
+						</h2>
+					</section>
+				</section>
+				<section class="stack" data-id="c19234a270240d6eafe89e47056a6805">
+					<section data-id="468e27855aaa03f857bce2f524543331" class="">
+						<h1>
+							<br />
+						</h1>
+						<h1>Diskusjon&nbsp;</h1>
+						<h1>og&nbsp;</h1>
+						<h1>takeaways</h1>
+					</section>
+					<section class="" data-id="74d4c2cc68774c9982d653efd1ae92f9">
+						<h2>
+							<br />
+						</h2>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/media-p.slid.es/uploads/petterhareim/images/121446/the_cmc_discuss_srs_bsns_by_kirotalon-d4gm9kp.png" />
+							<br />
+						</div>
+					</section>
+				</section>
+				<section class="" data-id="1f658bb25b0b9354fe4c1f205bce8ba3">
+					<h2>
+						<br />
+					</h2>
+					<h2>
+						<br />
+					</h2>
+					<h2>
+						<br />
+					</h2>
+					<div>
+						<br />
+					</div>
+					<div>
+						<br />
+					</div>
+					<h1>Takk for praten!</h1>
+					<div>
+						<a href="http://twitter.com/phareim" style="color:#ec6708">@phareim</a>
+					</div>
+					<div>
+						<i>
+							<font style="font-size: 24px;">54°26'51 S &nbsp; 3°19'15 E</font>&nbsp;
+						</i>
+					</div>
+					<div>
+						<i></i>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: '/plugin/markdown/marked.js' },
+					{ src: '/plugin/markdown/markdown.js' },
+					{ src: '/plugin/notes/notes.js', async: true },
+					{
+						src: '/plugin/highlight/highlight.js',
+						async: true,
+						callback: function() {
+							hljs.initHighlightingOnLoad();
+						}
+					}
+				]
+			});
+		</script>
+	</body>
+</html>
