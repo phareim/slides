@@ -1,7 +1,7 @@
 {
 	"name": "petters-presentations",
 	"version": "3.7.0",
-	"description": "Presentations written using reaveal.js",
+	"description": "Presentations written using reveal.js",
 	"homepage": "http://petter.space",
 	"subdomain": "slides",
 	"main": "js/reveal.js",
