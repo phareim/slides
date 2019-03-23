@@ -6,45 +6,31 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 		/>
-
 		<title>Petters Slides</title>
-
-		<link rel="stylesheet" href="../../css/reveal.css" />
-		<link rel="stylesheet" href="../../css/theme/black.css" />
-
+		<link rel="stylesheet" href="/css/reveal.css" />
+		<link rel="stylesheet" href="/css/theme/hkraft.css" />
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../lib/css/zenburn.css" />
-		<link
-			rel="stylesheet"
-			href="https://github.com/steinim/slides/blob/gh-pages/css/theme/hkraft.css"
-		/>
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement('link');
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match(/print-pdf/gi)
-				? '../../css/print/pdf.css'
-				: '../../css/print/paper.css';
-			document.getElementsByTagName('head')[0].appendChild(link);
-		</script>
+		<link rel="stylesheet" href="/lib/css/zenburn.css" />
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Haugaland Kraft</h1>
+					<section class="hkraft-star blue">
+						<h1>Om oppstart og produktutvikling</h1>
+					</section>
+					<section>
+						<p style="font-size: 300%">
+							To tomme hender og noen antagelser
+						</p>
+					</section>
 				</section>
 				<section>
-					<p>
-						<h1>Hvordan starter man egentlig en avdeling for produktutvikling?</h1>
-						<p style="font-size: 50%">En feltrapport</p>
-					</p>
+					<h1>
+						Hvordan starter man egentlig en avdeling for produktutvikling?
+					</h1>
+					<p style="font-size: 50%">En feltrapport</p>
 				</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
-				<section>Slide 4</section>
 			</div>
 		</div>
 		<script src="/lib/js/head.min.js"></script>
@@ -56,11 +42,11 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: '../../plugin/markdown/marked.js' },
-					{ src: '../../plugin/markdown/markdown.js' },
-					{ src: '../../plugin/notes/notes.js', async: true },
+					{ src: '/plugin/markdown/marked.js' },
+					{ src: '/plugin/markdown/markdown.js' },
+					{ src: '/plugin/notes/notes.js', async: true },
 					{
-						src: '../../plugin/highlight/highlight.js',
+						src: '/plugin/highlight/highlight.js',
 						async: true,
 						callback: function() {
 							hljs.initHighlightingOnLoad();
