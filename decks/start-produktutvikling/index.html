@@ -16,20 +16,155 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<section class="hkraft-star blue">
-						<h1>Om oppstart og produktutvikling</h1>
+					<section data-background="/img/hkraft/hkraft-bg.jpg">
+						<h1 style="color: white">Om oppstart og produktutvikling</h1>
+						<!-- <img src="/img/hkraft/hkraft-logo.svg" alt="HKraft Logo" /> -->
+					</section>
+					<section
+						style="height: 100%;width: 100%"
+						data-background="/img/hkraft/hkraft-bg.jpg"
+					>
+						<h3 style="color: #FFFFFF" class="overlay-text">Agenda</h3>
+						<ul style="color: #FFFFFF" class="overlay-text">
+							<li>Litt om meg og oss</li>
+							<li>Kultur</li>
+							<li>Metode</li>
+							<li>Teknisk Platform</li>
+							<li>Kule ting vi jobber med</li>
+						</ul>
 					</section>
 					<section>
-						<p style="font-size: 300%">
-							To tomme hender og noen antagelser
+						<img
+							src="/img/lag/petter.jpg"
+							alt="Petter"
+							style="width: 40%; float: left; box-shadow: 4px 4px 9px rgba(30,30,30,0.5)"
+						/>
+						<div
+							style="width: 50%; float: right;background-color: rgba(240, 240, 240, 0.1)"
+						>
+							<h6 style="text-align: left; margin-top: 0.5em">Petter Hareim</h6>
+							<ul style="color: #313131; list-style-type: none; margin-left: 0">
+								<li style="margin: 1em 0 2em">Utvikler</li>
+								<li>11 år som Haugesunder</li>
+								<li>10 år som konsulent</li>
+								<li>9 år som pappa</li>
+								<li style="margin-top: 1em">
+									.. leder utviklingsavdelingen i Haugaland Kraft
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section data-background="/img/lag/3.jpg"></section>
+				</section>
+				<section>
+					<section data-background="/img/lag/3.jpg">
+						<h2
+							style="color:white; position: absolute; bottom: -11em"
+							class="overlay-text"
+						>
+							Hvordan starter man egentlig en utviklingsavdeling?
+						</h2>
+					</section>
+					<section data-background="/img/lag/3.jpg">
+						<h2
+							style="color:white; position: absolute; bottom: -11em"
+							class="overlay-text"
+						>
+							Hvordan starter man egentlig en produktutviklingsavdeling?
+						</h2>
+					</section>
+					<section
+						data-background="/img/background/jesse-orrico-184803-unsplash.jpg"
+					>
+						<p style="font-size: 300%; color: white" class="overlay-text">
+							Hvor begynner vi?
 						</p>
+					</section>
+					<section
+						data-background="/img/background/jesse-orrico-184803-unsplash.jpg"
+					>
+						<p style="font-size: 300%; color: white" class="overlay-text">
+							Med to tomme hender og noen antagelser...
+						</p>
+					</section>
+					<section
+						data-background="/img/background/jesse-orrico-184803-unsplash.jpg"
+					>
+						<p style="font-size: 300%;color: white" class="overlay-text">
+							..som vi bør teste så fort som mulig.
+						</p>
+					</section>
+					<section
+						data-background="/img/background/franki-chamaki-682112-unsplash.jpg"
+					>
+						<p></p>
 					</section>
 				</section>
 				<section>
-					<h1>
-						Hvordan starter man egentlig en avdeling for produktutvikling?
-					</h1>
-					<p style="font-size: 50%">En feltrapport</p>
+					<section
+						data-background="/img/background/utsman-media-1433927-unsplash.jpg"
+					>
+						<h1>Målseting</h1>
+					</section>
+					<section
+						data-background="/img/background/utsman-media-1433927-unsplash.jpg"
+					>
+						<p
+							style="position: relative; top: 6em; color: white; font-size: 160%"
+						>
+							Samarbeid
+						</p>
+					</section>
+					<section
+						data-background="/img/background/utsman-media-1433927-unsplash.jpg"
+					>
+						<p
+							style="position: relative; top: 6em; color: white; font-size: 160%"
+						>
+							Tett på forretningen
+						</p>
+					</section>
+					<section
+						data-background="/img/background/utsman-media-1433927-unsplash.jpg"
+					>
+						<p
+							style="position: relative; top: 6em; color: white; font-size: 160%"
+						>
+							Tett på kundene
+						</p>
+					</section>
+					<section data-background="/img/background/angry-man.jpg"></section>
+					<section
+						data-background="/img/background/adam-jang-260876-unsplash.jpg"
+					></section>
+					<section style="position: relative; top: 6em; font-size: 160%">
+						<ul>
+							<li>Stiller krav til hva vi gjør</li>
+							<li>Vi må tåle litt usikkerhet</li>
+							<li>Vi blir helt avhengig av god kommunikasjon</li>
+							<li>Vi må tørre å feile litt</li>
+							<li>Aktivt høste erfaringer</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2 class="overlay-text" style="color:black">
+							Teknologi vi holder på med
+						</h2>
+					</section>
+					<section style="width: 100%; height: 100%">
+						<iframe
+							src="https://hkraft.no/"
+							frameborder="0"
+							height="100%"
+							width="100%"
+						></iframe>
+					</section>
+					<section>
+						<h2>Lora</h2>
+						<p></p>
+					</section>
 				</section>
 			</div>
 		</div>
@@ -41,6 +176,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				history: true,
+				fragmentinURL: true,
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
 				dependencies: [
 					{ src: '/plugin/markdown/marked.js' },
 					{ src: '/plugin/markdown/markdown.js' },

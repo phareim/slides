@@ -25,6 +25,10 @@
 		{
 			"src": "decks/**",
 			"use": "@now/static"
+		},
+		{
+			"src": "img/**",
+			"use": "@now/static"
 		}
 	]
 }
