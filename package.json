@@ -8,7 +8,9 @@
 	"scripts": {
 		"test": "grunt test",
 		"start": "grunt serve",
-		"build": "grunt"
+		"build": "grunt",
+		"deploy": "now",
+		"deploy:prod": "now --target production"
 	},
 	"author": {
 		"name": "Petter Hareim",
